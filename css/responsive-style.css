@@ -1,0 +1,614 @@
+/* Responsive Styles for Foodies Website */
+/* Mobile First Approach - Based on existing style.css */
+
+/* === Breakpoints ===
+xs: 0px
+sm: 576px
+md: 768px  
+lg: 992px
+xl: 1200px
+xxl: 1400px
+*/
+
+/* Global Responsive Settings */
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* === Extra Small Devices (up to 575.98px) === */
+@media (max-width: 575.98px) {
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 1.75rem !important;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+  }
+
+  h4 {
+    font-size: 1.1rem !important;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .wrapper {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  .text-content {
+    width: 100% !important;
+  }
+}
+
+/* === Small Devices (576px and up) === */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* === Medium Devices (768px and up) === */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* === Large Devices (992px and up) === */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* === Extra Large Devices (1200px and up) === */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* === Extra Extra Large Devices (1400px and up) === */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+/* === Navigation Responsive === */
+@media (max-width: 991.98px) {
+  .navigation-wrap {
+    background: var(--white-color) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-collapse {
+    background: var(--white-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+
+  .navigation-wrap .main-btn {
+    margin: 0.5rem 0 0 0 !important;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    height: 2.5rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-toggler i {
+    font-size: 1.2rem;
+  }
+}
+
+/* === Top Banner Responsive === */
+@media (max-width: 991.98px) {
+  .top-banner {
+    padding: 10rem 0 5rem !important;
+    text-align: center;
+  }
+
+  .top-banner h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .top-banner p {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .top-banner {
+    padding: 8rem 0 4rem !important;
+  }
+
+  .top-banner h1 {
+    font-size: 2rem !important;
+  }
+
+  .top-banner p {
+    font-size: 1rem !important;
+  }
+
+  .main-btn,
+  .white-btn {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 0.9rem !important;
+    width: 100%;
+    margin: 0.5rem 0 !important;
+  }
+
+  .white-btn.ms-lg-4 {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .top-banner {
+    padding: 6rem 0 3rem !important;
+  }
+
+  .top-banner h1 {
+    font-size: 1.75rem !important;
+  }
+}
+
+/* === Counter Section Responsive === */
+@media (max-width: 991.98px) {
+  .counter-section {
+    padding: 3rem 0 !important;
+  }
+
+  .counter-section h2 {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .counter-section {
+    padding: 2rem 0 !important;
+  }
+
+  .counter-section h2 {
+    font-size: 2rem !important;
+  }
+
+  .counter-section p {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+}
+
+/* === About Section Responsive === */
+@media (max-width: 991.98px) {
+  .about-section .text-sec {
+    padding-left: 0 !important;
+    margin-top: 2rem;
+  }
+
+  .food-type {
+    margin-top: 3rem !important;
+  }
+
+  .food-type .text-sec {
+    order: 1;
+  }
+
+  .food-type .card {
+    order: 2;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about-section h2 {
+    font-size: 1.75rem !important;
+    line-height: 2.25rem !important;
+  }
+
+  .food-type ul li {
+    font-size: 0.9rem;
+    line-height: 2rem;
+  }
+}
+
+/* === Story Section Responsive === */
+@media (max-width: 991.98px) {
+  .story-section {
+    padding: 6rem 0 !important;
+  }
+
+  .story-section h2 {
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .story-section {
+    padding: 4rem 0 !important;
+  }
+
+  .story-section h2 {
+    font-size: 1.75rem !important;
+  }
+
+  .story-section p {
+    font-size: 1rem !important;
+  }
+}
+
+/* === Explore Food Responsive === */
+@media (max-width: 991.98px) {
+  .explore-food .section-title {
+    font-size: 2rem !important;
+  }
+
+  .explore-food .section-subtitle {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .food-card {
+    margin-bottom: 2rem;
+  }
+
+  .card-img-container {
+    height: 200px !important;
+  }
+
+  .card-title {
+    font-size: 1.2rem !important;
+  }
+
+  .current-price {
+    font-size: 1.3rem !important;
+  }
+
+  .card-actions {
+    flex-direction: column;
+  }
+
+  .secondary-btn {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card-body {
+    padding: 1.5rem !important;
+  }
+
+  .food-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* === Testimonial Section Responsive === */
+@media (max-width: 991.98px) {
+  .testimonial-section .section-title {
+    font-size: 2rem !important;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .testimonial-card {
+    padding: 2rem !important;
+    margin: 0.5rem !important;
+  }
+
+  .testimonial-img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .testimonial-content {
+    padding-left: 0 !important;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .quote-icon {
+    position: static !important;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial-text {
+    font-size: 1rem !important;
+  }
+
+  .carousel-indicators {
+    bottom: -40px !important;
+  }
+
+  /* Marquee adjustments */
+  .marquee-content {
+    gap: 2rem !important;
+  }
+
+  .client-logo {
+    min-width: 120px !important;
+  }
+
+  .client-logo img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .testimonial-card {
+    padding: 1.5rem !important;
+  }
+
+  .testimonial-section .section-title {
+    font-size: 1.8rem !important;
+  }
+
+  .clients-title {
+    font-size: 1.3rem !important;
+  }
+}
+
+/* === FAQ Section Responsive === */
+@media (max-width: 767.98px) {
+  .faq h4 {
+    font-size: 1.1rem !important;
+  }
+
+  .faq p {
+    padding-left: 1rem !important;
+    font-size: 0.9rem;
+  }
+}
+
+/* === Book Food Responsive === */
+@media (max-width: 991.98px) {
+  .book-food {
+    padding: 3rem 0 !important;
+  }
+
+  .book-food-text h2 {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .book-food {
+    padding: 2rem 0 !important;
+    text-align: center;
+  }
+
+  .book-food-text h2 {
+    font-size: 1.75rem !important;
+  }
+
+  .book-food .main-btn {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+/* === Newsletter Responsive === */
+@media (max-width: 767.98px) {
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form .form-control {
+    margin-bottom: 1rem;
+    height: 3rem !important;
+  }
+
+  .newsletter-form .main-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .newsletter .section-title {
+    font-size: 1.75rem !important;
+  }
+
+  .newsletter .section-subtitle {
+    font-size: 1rem !important;
+  }
+}
+
+/* === Footer Responsive === */
+@media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-link {
+    display: block;
+    padding: 0.5rem 0 !important;
+  }
+
+  .footer-social {
+    margin: 1rem 0;
+  }
+
+  .footer-social a {
+    margin: 0 0.25rem;
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-copy {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer-social a {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+}
+
+/* === Utility Classes === */
+.text-center-mobile {
+  text-align: left;
+}
+
+@media (max-width: 767.98px) {
+  .text-center-mobile {
+    text-align: center;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+.show-mobile {
+  display: none !important;
+}
+
+@media (max-width: 767.98px) {
+  .show-mobile {
+    display: block !important;
+  }
+}
+
+/* === Button Responsive === */
+.btn-responsive {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 767.98px) {
+  .btn-responsive {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+}
+
+/* === Form Responsive === */
+@media (max-width: 575.98px) {
+  .form-control {
+    font-size: 0.9rem;
+  }
+}
+
+/* === Animation for Mobile === */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+  }
+
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Print Styles === */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .navbar,
+  .footer {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+    color: #000 !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* === High DPI Screens === */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .top-banner,
+  .story-section,
+  .book-food {
+    background-attachment: fixed;
+  }
+}
+
+/* === Landscape Mobile === */
+@media (max-height: 500px) and (orientation: landscape) {
+  .top-banner {
+    padding: 6rem 0 3rem !important;
+    min-height: auto;
+  }
+
+  .navbar-collapse {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}
+
+/* === Reduced Motion Support === */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .food-card:hover,
+  .testimonial-card,
+  .marquee-content {
+    transform: none !important;
+  }
+
+  .marquee-content {
+    animation: none !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

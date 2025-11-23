@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+
+    <!-- Bootstrap CSS (CDN only) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Foodies Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore-food">Explore Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="main-btn">1200 354 123</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section 1: Top Banner -->
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Good food choices are good investments.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Order Now <i class="fas fa-shopping-basket ps-3"></i></button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Learn More <i
+                                    class="fas fa-angle-right ps-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Counter -->
+    <section id="counter" class="counter-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h2><span id="count1"></span>+</h2>
+                    <p>SAVINGS</p>
+                </div>
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h2><span id="count2"></span>+</h2>
+                    <p>PHOTOS</p>
+                </div>
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h2><span id="count3"></span>+</h2>
+                    <p>ROCKETS</p>
+                </div>
+                <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                    <h2><span id="count4"></span>+</h2>
+                    <p>GLOBES</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: About -->
+    <section id="about" class="about-section wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+                    <div class="card border-0">
+                        <img src="images/img/img-1.png" class="img-fluid" alt="About Foodies">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 text-sec">
+                    <h2>We pride ourselves on making real food from the best ingredients.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum
+                        in sit amet leo. Mauris feugiat erat tellus.</p>
+                    <button class="main-btn mt-4">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="container food-type">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                    <h2>We make everything by hand with the best possible ingredients.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum
+                        in sit amet leo. Mauris feugiat erat tellus.Far far away, behind the word mountains, far from
+                        the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <ul class="list-unstyled py-3">
+                        <li><i class="fas fa-check"></i> Etiam sed dolor ac diam volutpat.</li>
+                        <li><i class="fas fa-check"></i> Erat volutpat aliquet imperdiet.</li>
+                        <li><i class="fas fa-check"></i> purus a odio finibus bibendum.</li>
+                    </ul>
+                    <button class="main-btn mt-4">Learn More</button>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="card border-0">
+                        <img src="images/img/img-2.png" class="img-fluid" alt="Food Preparation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Story -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content">
+                        <h2>When a man's stomach is full it makes no difference whether he is rich or poor.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus
+                            bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+                        <button class="main-btn mt-3">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Explore Food -->
+    <section id="explore-food" class="explore-food wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content text-center mb-5">
+                        <h2 class="section-title">Explore Our Foods</h2>
+                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
+                            purus a odio finibus
+                            bibendum in sit amet leo. Mauris feugiat erat tellus. Far far away, behind the word
+                            mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                            Separated they live in Bookmarksgrove.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="food-card card border-0 shadow-sm h-100">
+                        <div class="card-img-container">
+                            <img src="images/img/img-3.jpg" class="card-img-top" alt="Rainbow Vegetable Sandwich">
+                            <div class="card-badge">Popular</div>
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title">Rainbow Vegetable Sandwich</h4>
+                            <p class="card-time mb-2">
+                                <i class="fas fa-clock me-2"></i>Time: 15 - 20 Minutes
+                            </p>
+                            <p class="card-serves mb-3">
+                                <i class="fas fa-users me-2"></i>Serves: 1
+                            </p>
+                            <div class="card-price mb-3">
+                                <span class="current-price">$10.50</span>
+                                <span class="original-price"><del>$11.70</del></span>
+                                <span class="discount-badge">Save 10%</span>
+                            </div>
+                            <p class="card-description mb-4">
+                                Fresh vegetables with special sauce in whole grain bread. Healthy and delicious!
+                            </p>
+                            <div class="card-actions mt-auto">
+                                <button class="main-btn w-100">
+                                    <i class="fas fa-shopping-cart me-2"></i>Order Now
+                                </button>
+                                <button class="secondary-btn w-100 mt-2">
+                                    <i class="fas fa-heart me-2"></i>Add to Favorites
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="food-card card border-0 shadow-sm h-100">
+                        <div class="card-img-container">
+                            <img src="images/img/img-4.jpg" class="card-img-top" alt="Vegetarian Burger">
+                            <div class="card-badge new">New</div>
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title">Vegetarian Burger</h4>
+                            <p class="card-time mb-2">
+                                <i class="fas fa-clock me-2"></i>Time: 30 - 45 Minutes
+                            </p>
+                            <p class="card-serves mb-3">
+                                <i class="fas fa-users me-2"></i>Serves: 1
+                            </p>
+                            <div class="card-price mb-3">
+                                <span class="current-price">$9.20</span>
+                                <span class="original-price"><del>$10.50</del></span>
+                                <span class="discount-badge">Save 12%</span>
+                            </div>
+                            <p class="card-description mb-4">
+                                Plant-based patty with fresh lettuce, tomato, and our signature sauce in a sesame bun.
+                            </p>
+                            <div class="card-actions mt-auto">
+                                <button class="main-btn w-100">
+                                    <i class="fas fa-shopping-cart me-2"></i>Order Now
+                                </button>
+                                <button class="secondary-btn w-100 mt-2">
+                                    <i class="fas fa-heart me-2"></i>Add to Favorites
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="food-card card border-0 shadow-sm h-100">
+                        <div class="card-img-container">
+                            <img src="images/img/img-5.jpg" class="card-img-top" alt="Raspberry Stuffed French Toast">
+                            <div class="card-badge featured">Featured</div>
+                        </div>
+                        <div class="card-body d-flex flex-column p-4">
+                            <h4 class="card-title">Raspberry Stuffed French Toast</h4>
+                            <p class="card-time mb-2">
+                                <i class="fas fa-clock me-2"></i>Time: 10 - 15 Minutes
+                            </p>
+                            <p class="card-serves mb-3">
+                                <i class="fas fa-users me-2"></i>Serves: 1
+                            </p>
+                            <div class="card-price mb-3">
+                                <span class="current-price">$12.50</span>
+                                <span class="original-price"><del>$13.20</del></span>
+                                <span class="discount-badge">Save 5%</span>
+                            </div>
+                            <p class="card-description mb-4">
+                                Thick brioche stuffed with fresh raspberries, topped with powdered sugar and maple
+                                syrup.
+                            </p>
+                            <div class="card-actions mt-auto">
+                                <button class="main-btn w-100">
+                                    <i class="fas fa-shopping-cart me-2"></i>Order Now
+                                </button>
+                                <button class="secondary-btn w-100 mt-2">
+                                    <i class="fas fa-heart me-2"></i>Add to Favorites
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View More Button -->
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <button class="view-more-btn">
+                        View All Menu Items <i class="fas fa-chevron-right ms-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 6: Testimonial -->
+    <section id="testimonial" class="testimonial-section wrapper">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <span class="section-badge">Testimonials</span>
+                    <h2 class="section-title">What Our Customers Say</h2>
+                    <p class="section-subtitle">Don't just take our word for it - hear from some of our satisfied
+                        customers</p>
+                </div>
+            </div>
+
+            <!-- Testimonial Carousel -->
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Carousel Indicators -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+
+                        <!-- Carousel Items -->
+                        <div class="carousel-inner">
+                            <!-- Testimonial 1 -->
+                            <div class="carousel-item active">
+                                <div class="testimonial-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 text-center">
+                                            <div class="testimonial-img-container">
+                                                <img src="images/review/review-1.jpg" class="testimonial-img"
+                                                    alt="Johnathan Doe">
+                                                <div class="rating-stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="testimonial-content">
+                                                <i class="fas fa-quote-left quote-icon"></i>
+                                                <p class="testimonial-text">"The food quality at Foodies is exceptional!
+                                                    Every dish is prepared with fresh ingredients and amazing attention
+                                                    to detail. The Rainbow Vegetable Sandwich has become my daily go-to
+                                                    lunch."</p>
+                                                <div class="testimonial-author">
+                                                    <h5>Johnathan Doe</h5>
+                                                    <span>UX Designer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 2 -->
+                            <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-4 text-center">
+                                            <div class="testimonial-img-container">
+                                                <img src="images/review/review-2.jpg" class="testimonial-img"
+                                                    alt="Maccy Doe">
+                                                <div class="rating-stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star-half-alt"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="testimonial-content">
+                                                <i class="fas fa-quote-left quote-icon"></i>
+                                                <p class="testimonial-text">"As a front-end developer with crazy hours,
+                                                    Foodies has been a lifesaver. The Vegetarian Burger is absolutely
+                                                    delicious, and the delivery is always on time. Highly recommended!"
+                                                </p>
+                                                <div class="testimonial-author">
+                                                    <h5>Maccy Doe</h5>
+                                                    <span>Front End Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 7: FAQ -->
+    <section id="faq" class="faq wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center pb-4">
+                        <h2>Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>Is Foodies Bread really baked fresh each day?</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language.</p>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>Do you bake breads containing animal fats or products?</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language.</p>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>Can I order your products online?</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language.</p>
+                </div>
+                <div class="col-sm-6 mb-4">
+                    <h4><span>~</span>When are you opening a shop near me?</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Book Food -->
+    <section id="book-food" class="book-food">
+        <div class="container book-food-text">
+            <div class="row text-center">
+                <div class="col-lg-9 col-md-12">
+                    <h2>Baked fresh daily by bakers with passion.</h2>
+                </div>
+                <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                    <button class="main-btn">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9: Newsletter -->
+    <section id="newsletter" class="newsletter wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content text-center pb-4">
+                        <h2>Hurry up! Subscribe our newsletter and get 25% Off</h2>
+                        <p>Limited time offer for this month. No credit card required. </p>
+                    </div>
+                    <form class="newsletter-form">
+                        <div class="row">
+                            <div class="col-md-8 col-12">
+                                <input class="form-control" placeholder="Email Address here" name="email" type="email">
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <button class="main-btn" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 10: Footer -->
+    <footer id="footer" class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a class="footer-link" href="#">Register</a>
+                    <a class="footer-link" href="#">Forum</a>
+                    <a class="footer-link" href="#">Affiliate</a>
+                    <a class="footer-link" href="#">FAQ</a>
+                    <div class="footer-social pt-4 text-center">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="footer-copy">
+                        <div class="copy-right text-center pt-5">
+                            <p class="text-light">© 2023. Foodies. All rights reserved.</p>
+                            <p class="text-light mb-0" style="font-size: 0.9rem; opacity: 0.8;">
+                                Created by
+                                <a href="https://muhammad-abdullah-arif-portfolio.netlify.app/" class="text-light"
+                                    style="text-decoration: none; border-bottom: 1px dotted rgba(255,255,255,0.5);">
+                                    Muhammad Abdullah Arif
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Libraries -->
+    <!-- jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Then Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Local JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
